@@ -22,6 +22,14 @@
 
 <body>
 
+    
+    <!-- ======= pre - loader ===== -->
+    <div id="preloader">
+        <div id="status">
+            <img src="img/logo.png" alt="Pre-loader" />
+        </div>
+    </div>
+
     <!-- ========== Header ===== -->
     <header>
         <div class="container">
@@ -826,6 +834,28 @@
             });
         });
     </script>
+    
+    <!-- ======= Pre - Loader ======= -->
+    <script type="text/javascript">
+        $(window).on('load', function() { 
+            $('#status').fadeOut(); 
+            $('#preloader').delay(300).fadeOut('slow');
+            $('body').delay(1000).css({'overflow':'visible'});
+        });
+    </script>
+    
+    <!-- ===== Back to Top ===== -->
+    <script> 
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 600){
+                $("header").addClass("open");
+            }
+            else{
+                $("header").removeClass("open");
+            }
+        });
+    </script>
+
     <!-- ======= Initialize - Banner - Slider ====== -->
     <script type="text/javascript">
         var swiper = new Swiper(".mySwiper2", {
