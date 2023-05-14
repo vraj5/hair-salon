@@ -1,0 +1,477 @@
+@media(max-width:1320px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+    /* ====== Banner ====== */
+    .banner h1{
+        font-size: 50px;
+    }
+    .banner .data-main{
+        width: 58.33%;
+    }
+    .banner .image-main{
+        width: 41.66%;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        padding-left:108px;
+        padding-right:108px;
+    }
+
+    /* ===== Header ===== */
+    header .navbar .menus li{
+        font-size: 12px;
+    }
+
+    /* ====== Banner ====== */
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    .banner .data-main{
+        width: 50%;
+    }
+    .banner .image-main{
+        width: 50%;
+    }
+
+    /* ===== about ===== */
+    .about .image img{
+        margin: 0 auto;
+        width: 80%;
+        border-radius: 30%;
+    }
+
+    /* ====== offers ====== */
+    .offers .box{
+        padding: 20px;
+    }
+
+}
+@media(max-width:1024px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+}
+@media(max-width:992px){
+    .container{
+        padding-left:40px !important;
+        padding-right:40px !important;
+    }
+    .section-head {
+        margin: 0 auto 30px;
+    }    
+    .section-head .section-title {
+        font-size: 38px;
+    }
+
+    /* ====== Header ====== */
+    header{
+        position: relative;
+    }
+    header .navbar{
+        width: 100%;
+        top: 90px;
+        opacity: 0;
+        visibility: hidden;
+        left: -100%;
+        background-color: #090909;
+        width: 30%;
+        height: 100vh;
+        position: absolute;
+        transition: all 0.5s;
+    }
+    header .navbar .menus{
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 99999 !important;
+    }
+    header .navbar .menus li{
+        margin: 20px;
+        display: block;
+        font-size: 20px;
+    }
+    header .search{
+        width: 25%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    header .toggle-btn{
+        display: block;
+        margin-left: 30px;
+    }
+    header .toggle-btn i{
+        color: #cea46f;
+        font-size: 35px;
+    }
+
+    /* ====== banner ====== */
+    .banner .row{
+        flex-direction: column;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+    .banner .data-main{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner .data-main p{
+        max-width: 500px;
+        margin-bottom: 30px !important;
+        margin: 0 auto;
+    }
+    .banner .swiper-slide{    
+        padding: 50px 0 100px;
+    }
+    .banner .image-main{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner .image-main img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .banner .swiper-pagination-fraction{
+        font-size: 20px;
+        padding-left: 450px;
+    }
+
+    /* ====== about ===== */
+    .about h2{
+        font-size: 40px;
+    }
+    .about h4{
+        margin-bottom: 0;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about .data-main{
+        width: 58.33% !important;
+    }
+    .about .image{
+        margin: 0 !important;
+        width: 41.66% !important;
+    }
+    .about .extra p{
+        font-size: 12px !important;
+    }
+
+    /* ======= features ====== */
+    .features  .left-box{
+        width: 100% !important;
+    }
+    .features .data{
+        width: 100%;
+    }
+    .features .data img{
+        display: none;
+    }
+
+    
+    /* ====== offers ====== */
+    .offers .box{
+        padding: 50px;
+    }
+    .offers .col-4{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .offers .col-4.last{
+        width: 100%;
+    }
+
+    /* ====== team ===== */
+    .team .box{
+        width: 100%;
+    }
+
+    /* ====== faq ===== */
+    .faq .col-6{
+        width: 100%;
+    }
+    .faq .row{
+        flex-direction: column-reverse;
+    }
+    .faq img{
+        width: 40%;
+        margin-bottom: 50px;
+    }
+
+    /* ====== contact ===== */
+    .contact{
+        padding: 50px 0 0;
+    }
+    .contact .main{
+        position: absolute;
+        padding: 0;
+        background-image: none;
+    }
+    .contact .col-5{
+        width: 100%;
+    }
+    .contact .main .box{
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: relative;
+    }
+    .contact .main .form-box{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    /* ====== footer ====== */
+    footer{
+        margin-top: 900px;
+    }
+    footer .main{
+        width: 90% !important;
+    }
+    footer .offset-md-1{
+        margin-left: 0 !important;
+    }
+}
+@media(max-width:767px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    /* ====== header ==== */
+    header .brand{
+        width: 25%;
+    }
+    header .navbar{
+        width: 50%;
+    }
+    
+    /* ====== about ===== */
+    .about{
+        text-align: center;
+    }
+    .about .abt-main{
+        display: none;
+    }
+    .about .abt-res{
+        display: block;
+    }
+    .about p{
+        margin-bottom: 20px;
+    }
+    .about .data-main{
+        width: 100% !important;
+    }
+    .about .image{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .about .image img{
+        height: 200px;
+        border-radius: 100px;
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .about .extra{
+        justify-content: center;
+    }
+
+    /* ====== Offer ===== */
+    .offers .col-4{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* ==== team ==== */
+    .team h4{
+        font-size: 25px;
+    }
+    .team p{
+        font-size: 14px;
+    }
+}
+@media(max-width:576px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .section-head {
+        margin: 0 auto 20px;
+    }    
+    .section-head .section-title {
+        font-size: 28px;
+    }
+    
+    /* ====== header ==== */
+    header .brand{
+        width: 50%;
+    }
+    header .search{
+        padding: 0;
+    }
+    header .brand img{
+        width: 70%;
+        height: auto;
+    }
+    header .navbar{
+        top: 60px;
+        width: 50%;
+    }
+    header{
+        padding: 15px 0;
+    }
+    header .search i{
+        font-size: 20px;
+    }
+    header .search .toggle-btn i{
+        font-size: 25px;
+    }
+
+    
+    /* ====== banner ====== */
+    .banner h1{
+        font-size: 30px;
+        margin-bottom: 20px !important;
+    }
+    .banner .swiper-slide{    
+        padding: 50px 0 100px;
+    }
+    .banner .image-main img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner .swiper-pagination-fraction{
+        font-size: 20px;
+        padding-left: 250px;
+    }
+
+    
+    /* ====== about ===== */
+    .about .about-inner{
+        padding: 50px 0;
+    }
+    .about h2{
+        font-size: 35px;
+    }
+    .about h4{
+        font-size: 40px !important;
+    }
+
+    /* ====== First - Class - Service ====== */
+    .first-class-services{
+        padding: 50px 0 !important;
+    }
+
+    /* ======= features ====== */
+    .features{
+        padding: 50px 0 !important;
+    }
+    .features h2{
+        font-size: 25px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .features .box-main{
+        width: 100%;
+    }
+    .features .second .btn{
+        display: none;
+    }
+    .features .left-box .row{
+        flex-direction: column-reverse;
+    }
+    .features .data p{
+        margin-top: 30px;
+    }
+
+    /* ====== offers ====== */
+    .main-offers{
+        padding: 50px 0 !important;
+    }
+    .offers .col-4{
+        padding: 0;
+    }
+    .offers .box{
+        padding: 30px 20px;
+    }
+    .offers .box h5{
+        margin-top: 10px;
+    }
+    .offers .box h4{
+        margin: 0;
+    }
+    .offers .box .additional{
+        margin-bottom: 10px;
+    }
+
+    /* ==== team ==== */
+    .team{
+        padding: 50px 0 !important;
+    }
+    .team .main-box{
+        height: auto !important;
+    }
+    .team .box{
+        flex-direction: column;
+    }
+    .team .box .col-4{
+        width: 100%;
+    }
+    .team p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .team .box .col-4 img{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .team .box .col-8{
+        width: 100%;
+        padding: 0;
+    }
+    .team .box .signature{
+        width: 100%;
+    }
+    .team .box .signature img{
+        width: 30%;
+        margin-left: auto;
+    }
+
+    /* ====== faq ====== */
+    .faq{
+        padding: 50px 0;
+    }
+    .faq .title p{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .faq .accordion .accordion-body p{
+      font-size: 14px;
+    }
+    .faq img{
+        display: none;
+    }
+
+    
+    /* ====== contact ===== */
+    .contact .main .box{
+        padding: 20px;
+    }
+    .contact .main .form-box{
+        padding: 20px;
+    }
+}
